@@ -1,0 +1,40 @@
+{
+  "name": "pi-open-sessions-files-extension",
+  "version": "1.0.1",
+  "description": "pi extension to fuzzy-pick and open files edited by the agent in the current session",
+  "type": "module",
+  "main": "open-session-files.ts",
+  "files": [
+    "open-session-files.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "dev:sandbox": "bash ./scripts/dev-sandbox.sh"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "fuzzy-finder",
+    "session",
+    "open-file"
+  ],
+  "author": "goinfrex",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthur-remy/pi-open-sessions-files-extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arthur-remy/pi-open-sessions-files-extension/issues"
+  },
+  "homepage": "https://github.com/arthur-remy/pi-open-sessions-files-extension#readme",
+  "dependencies": {
+    "fuzzysort": "^3.1.0"
+  },
+  "pi": {
+    "extensions": [
+      "./open-session-files.ts"
+    ],
+    "video": "https://github.com/arthur-remy/pi-open-sessions-files-extension/raw/refs/heads/main/demo.mp4"
+  }
+}
